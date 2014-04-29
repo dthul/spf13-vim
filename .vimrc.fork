@@ -1,3 +1,2 @@
 colorscheme busierbee
 set nospell
-UnBundle 'nathanaelkane/vim-indent-guides'

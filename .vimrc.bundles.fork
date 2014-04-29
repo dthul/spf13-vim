@@ -1,3 +1,27 @@
 " Rust {
     Bundle 'wting/rust.vim'
 " }
+
+" Remove Bundles {
+    UnBundle 'nathanaelkane/vim-indent-guides'
+    UnBundle 'Lokaltog/vim-easymotion'
+    UnBundle 'tpope/vim-abolish.git'
+    UnBundle 'osyo-manga/vim-over'
+    UnBundle 'justinmk/vim-sneak'
+    UnBundle 'kana/vim-textobj-user'
+    UnBundle 'kana/vim-textobj-indent'
+
+    UnBundle 'reedes/vim-textobj-sentence'
+    UnBundle 'reedes/vim-textobj-quote'
+    UnBundle 'reedes/vim-wordy'
+
+    UnBundle 'mattn/webapi-vim'
+    UnBundle 'mattn/gist-vim'
+
+    UnBundle 'tpope/vim-haml'
+
+    UnBundle 'spf13/vim-preview'
+    UnBundle 'tpope/vim-cucumber'
+    UnBundle 'quentindecock/vim-cucumber-align-pipes'
+    UnBundle 'Puppet-Syntax-Highlighting'
+" }
