@@ -1,10 +1,19 @@
-" Rust {
+" Programming {
+    Bundle 'octol/vim-cpp-enhanced-highlight'
     Bundle 'wting/rust.vim'
 " }
 
 " Remove Bundles {
-    UnBundle 'nathanaelkane/vim-indent-guides'
+    UnBundle 'scrooloose/nerdtree'
+    UnBundle 'tpope/vim-surround'
+    UnBundle 'spf13/vim-autoclose'
+    UnBundle 'terryma/vim-multiple-cursors'
+    UnBundle 'vim-scripts/sessionman.vim'
+    UnBundle 'matchit.zip'
     UnBundle 'Lokaltog/vim-easymotion'
+    UnBundle 'jistr/vim-nerdtree-tabs'
+    UnBundle 'mbbill/undotree'
+    UnBundle 'nathanaelkane/vim-indent-guides'
     UnBundle 'tpope/vim-abolish.git'
     UnBundle 'osyo-manga/vim-over'
     UnBundle 'justinmk/vim-sneak'
@@ -15,9 +24,13 @@
     UnBundle 'reedes/vim-textobj-quote'
     UnBundle 'reedes/vim-wordy'
 
+    UnBundle 'tpope/vim-fugitive'
     UnBundle 'mattn/webapi-vim'
     UnBundle 'mattn/gist-vim'
+    UnBundle 'scrooloose/nerdcommenter'
+    UnBundle 'godlygeek/tabular'
 
+    UnBundle 'gorodinskiy/vim-coloresque'
     UnBundle 'tpope/vim-haml'
 
     UnBundle 'spf13/vim-preview'
