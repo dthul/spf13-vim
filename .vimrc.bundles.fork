@@ -21,10 +21,6 @@
     UnBundle 'kana/vim-textobj-user'
     UnBundle 'kana/vim-textobj-indent'
 
-    UnBundle 'reedes/vim-textobj-sentence'
-    UnBundle 'reedes/vim-textobj-quote'
-    UnBundle 'reedes/vim-wordy'
-
     UnBundle 'mattn/webapi-vim'
     UnBundle 'mattn/gist-vim'
     UnBundle 'scrooloose/nerdcommenter'

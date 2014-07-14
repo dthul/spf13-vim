@@ -1,2 +1,18 @@
 colorscheme busierbee
 set nospell
+
+let g:airline#extensions#tabline#enabled = 1
+
+" Use only (Shift+)TAB and deactive <Up> and <Down>
+let g:ycm_key_list_select_completion = ['<TAB>']
+let g:ycm_key_list_previous_completion = ['<S-TAB>']
+
+inoremap jj <Esc>
+nnoremap <Left> <NOP>
+nnoremap <Right> <NOP>
+nnoremap <Up> <NOP>
+nnoremap <Down> <NOP>
+inoremap <Left> <NOP>
+inoremap <Right> <NOP>
+inoremap <Up> <NOP>
+inoremap <Down> <NOP>
